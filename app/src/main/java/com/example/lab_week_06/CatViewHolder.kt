@@ -40,6 +40,13 @@ imageLoader: ImageLoader, private val onClickListener: CatAdapter.OnClickListene
             CatBreed.AmericanCurl -> "American Curl"
             CatBreed.BalineseJavanese -> "Balinese-Javanese"
             CatBreed.ExoticShorthair -> "Exotic Shorthair"
+            CatBreed.MaineCoon -> "Maine Coon"
+            CatBreed.Siamese -> "Siamese"
+            CatBreed.Bengal -> "Bengal"
+            CatBreed.Siberian -> "Siberian"
+            CatBreed.Persian -> "Persian"
+            CatBreed.Abyssinian -> "Abyssinian"
+            CatBreed.BritishShorthair -> "British Shorthair"
             else -> "Unknown"
         }
         catBiographyView.text = cat.biography
